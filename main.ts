@@ -2,10 +2,6 @@ input.onPinPressed(TouchPin.P0, function () {
     total = num1 - num2
     basic.showNumber(total)
 })
-input.onButtonPressed(Button.A, function () {
-    num1 += 1
-    basic.showNumber(num1)
-})
 input.onGesture(Gesture.TiltLeft, function () {
     total += num1 ** num2
     basic.showNumber(total)
